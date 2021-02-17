@@ -25,4 +25,3 @@ const knexConfig = {
 }
 
 module.exports = knex(knexConfig[environment]);
-
