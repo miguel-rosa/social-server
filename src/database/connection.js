@@ -14,7 +14,7 @@ const knexConfig = {
   },
   production : {
     client: 'pg',
-    connection: process.env.DATABASE_URL,
+    connection: process.env.DATABASE_URL_PD,
     migrations:{
       directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
     },
